@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Select a course</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" type="text/css" href="courses.css">
+</head>
+<body>
+
+  <div id="container">
+    <select id="course-select" class="js-example-basic-single" name="states" multiple="multiple">
+
+    </select>
+
+    <hr>
+
+    <table id="courselist" class="timecard">
+      <caption>Your Courses</caption>
+        <thead>
+          <tr>
+            <th>icon</th>
+            <th>Title</th>
+            <th>Start Date</th>
+            <th>Duration</th>
+            <th>Commitment</th>
+            <!-- <th>Minimum Slot</th> -->
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="odd">
+            <td colspan="6" style="text-align: center; background: #ccc; font-size: 19px">No courses selected!</td>
+          </tr>
+
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="6"></td>            
+          </tr>
+        </tfoot>        
+    </table>
+
+
+    <button id="plan_btn" class="plan_btn" >Plan my schedule</button>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+
+  <script src="courses.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      courses.init()
+    })
+  </script>
+</body>
+</html>

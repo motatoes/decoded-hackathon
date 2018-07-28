@@ -1,0 +1,89 @@
+
+#container {
+  margin: 10px auto;
+  width: 80%;
+  font-family: 'helvetica';
+}
+
+#course-select {
+  width: 80%;
+  margin: 10px auto;
+  margin-left: 100px;
+}
+
+.select2 {
+  /*margin: 10px auto;*/
+  margin-left: 100px;
+}
+
+table.timecard {
+  margin: auto;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #fff; /*for older IE*/
+  border-style: hidden;
+}
+
+table.timecard caption {
+  background-color: #e77400;
+  color: #fff;
+  font-size: x-large;
+  font-weight: bold;
+  letter-spacing: .3em;
+}
+
+table.timecard thead th {
+  padding: 8px;
+  background-color: #FF8000;
+  font-size: large;
+}
+
+table.timecard thead th#thDay {
+  width: 40%; 
+}
+
+table.timecard thead th#thRegular, table.timecard thead th#thOvertime, table.timecard thead th#thTotal {
+  width: 20%;
+}
+
+table.timecard th, table.timecard td {
+  padding: 3px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #f79646 #ccc;
+}
+
+table.timecard td {
+  text-align: right;
+}
+
+table.timecard tbody th {
+  text-align: left;
+  font-weight: normal;
+}
+
+table.timecard tfoot {
+  font-weight: bold;
+  font-size: large;
+  background-color: #CFD2D6;
+  color: #fff;
+}
+
+table.timecard tr.even {
+  background-color: #fde9d9;
+}
+
+.plan_btn {
+  margin: 15px auto;
+  background-color: #0155E3; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  /*display: inline-block;*/
+  font-size: 16px;
+  width: 50%;
+  height: 75px;
+}
